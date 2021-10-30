@@ -4,11 +4,12 @@ O envio de email ainda é o meio mais usado para comunicação "Formal" entre em
 
 ## HTML-4 & CSS-2 (Tableless)
 
-A tecnologia é legada, para montar-mos o email marketing é usado de uma tecnica conhecida como tableless onde o desenvolvedor deve fazer recortes das imagens (utilizando photoshop por exemplo) e encaixa-las utilizando o table do html.
+Ja é uma tecnologia legada, para montar-mos o email marketing usamos uma tecnica conhecida como tableless onde é feito recortes das imagens (utilizando photoshop por exemplo) e encaixa-las utilizando o elemento table do HTML.
 
 Features mais novas do html-5 e css-3 não são suportadas pelo protocolo de rede `smtp` que é o responsável por envio de email.
 
-OBS: Pode usar div's mas para um layout mais complexo deve usar table.
+OBS-1: Pode usar div's mas para um layout mais complexo deve usar table.
+OBS-2: Email marketing não são responsíveis a tela, portanto o layout deve permanecer em um tamanho fixo de 600px;
 
 ---
 
